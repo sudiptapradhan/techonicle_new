@@ -98,3 +98,159 @@ width: 94%;
 .feed-sideadv{
   /*  */
 }
+
+
+
+
+
+/* ------feed last 2 parts------ */
+.feedp3{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+@media all and (min-width: 1020px) {
+  .feedp3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}
+.feedp3 h2{
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+.feedp3 p{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #646870;
+  margin-bottom: 0 !important;
+}
+.seeart{
+  width: 100%;
+  height: 33vh;
+  object-fit: fill;
+}
+@media all and (max-width: 990px) {
+  .seeart{
+    width: 100%;
+    height: 30vh;
+    object-fit: fill;
+  }
+}
+@media all and (min-width: 1020px) {
+  .feedp3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+}
+.createdate{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media all and (max-width: 767px) {
+  .feedp3 .contentfeed2{
+    display: none;
+  }
+}
+@media all and (max-width: 527px) {
+  .feedp3 h2{
+    font-size: 20px;
+  }
+  .seeart{
+    width: 100%;
+    height: 22vh;
+    object-fit: fill;
+  }
+}
+@media all and (max-width: 413px) {
+  .seeart{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .feedp3 h2{
+    font-size: 16px;
+  }
+}
+@media all and (max-width: 370px) {
+  .seeart{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+}
+.feedlast{
+  height: 55vh;
+  width: 100%;
+  background-image: url(https://wallpapercave.com/wp/wp2511097.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.feedlastdiv{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+}
+@media all and (max-width: 900px) {
+  .feedlastdiv{
+    width: 80%;
+  }
+}
+@media all and (max-width: 700px) {
+  .feedlastdiv{
+    padding: 5% !important;
+    width: 90%;
+  }
+}
+@media all and (max-width: 600px) {
+  .feedlastdiv{
+    padding: 3% !important;
+    width: 100%;
+  }
+}
+.feedlastdiv button{
+  padding: 7px;
+  background-color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  outline: none;
+  border-radius: 3px;
+}
+.feedlastdiv button:hover{
+  color: white;
+  font-weight: 600;
+  background-color: transparent;
+}
+.headin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headin h1,h6{
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+@media all and (max-width:490px){
+  .headin h1{
+    font-size: 21px;
+  }
+  .headin h6{
+    font-size: 14px;
+  }
+}
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: rgb(206, 198, 198);
+  border-radius: 50px;
+}
+/* ------feed last 2 parts enddd------ */

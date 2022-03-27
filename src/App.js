@@ -5,6 +5,7 @@ import './App.css';
 import { Navbar } from './components'
 import Createblog from './components/Create Blog/Createblog';
 import Feedpage from './components/Feedpage';
+import Feed2 from './components/Feed2';
 function App() {
   return (
     <>
@@ -30,13 +31,7 @@ function App() {
 
     
         
-    </> 
-        
-    
-      
-      
-      
-    
+    </>     
   );
 }
 

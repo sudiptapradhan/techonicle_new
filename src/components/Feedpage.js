@@ -1,7 +1,10 @@
 import React from 'react'
+import Feed2 from './Feed2'
 
 function Feedpage() {
+
   return (
+    <>
     <div className="container mt-3">
       <div className="row">
         <div className="col-lg-8 feed-bnr">
@@ -56,6 +59,8 @@ function Feedpage() {
       {/* <img src="https://media.istockphoto.com/photos/digital-artist-working-at-home-picture-id1213781338?b=1&k=20&m=1213781338&s=170667a&w=0&h=bDVoUJdiVm7eA_Kw1yEcX1mS-PnB0Jh6bS00NNVnu-g="/>
          */}
     </div>
+    <Feed2/>
+    </>
   )
 }
 
