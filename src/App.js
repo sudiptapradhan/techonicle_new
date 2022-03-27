@@ -3,6 +3,7 @@ import { BrowserRouter , Routes, Route, Link } from 'react-router-dom';
 // import { Switch } from 'react-native-switch';
 import './App.css';
 import { Navbar } from './components'
+import Createblog from './components/Create Blog/Createblog';
 import Feedpage from './components/Feedpage';
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route path="/feed" element={<Feedpage/>}/>
       <Route path="/nav" element={<Navbar/>}/>
+      <Route path="/cb" element={<Createblog/>}/>
 
     </Routes>
     </BrowserRouter>
