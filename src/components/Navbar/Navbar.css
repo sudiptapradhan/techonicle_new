@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Shippori+Antique&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* 
+ 
+/* navbar style start  */
+.hamburgermenu{
+  color: black;
+}
+
+.main-nav {
+  font-size: 62.5%;
+  width: 100%;
+  height: 6rem;
+  display: grid;
+  grid-template-columns: 8rem 2fr 2fr 1fr 8rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -20px,
+    rgba(0, 0, 0, 0.3) 0px 20px 20px -20px;
+}
+
+.logo {
+  display: grid;
+  /* background-color: #3b5998; */
+  grid-column: 2/3;
+  justify-content: start;
+  align-items: center;
+  height: 7.2rem;
+}
+
+.menu {
+  grid-column: 3/4;
+}
+
+.menu ul {
+  height: 7.2rem;
+  display: flex;
+  grid-template-columns: 2.6fr repeat(2, 2fr);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  grid-column: 4/5;
+}
+
+.links ul {
+  height: 6.6rem;
+  display: grid;
+  grid-template-columns: 2.6fr repeat(2, 2fr);
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.links ul li {
+  text-align: right;
+}
+
+.links ul li:first-child {
+  grid-column: 2/3;
+}
+
+/* ----------- Grid part ends ----------------- */
+
+.logo h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.4rem;
+  font-weight: 1600;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #2c2c2c;
+}
+
+.menu ul li {
+  font-size: 1.4rem;
+}
+
+.menu ul li a {
+  text-transform: capitalize;
+  color: rgba(0, 0, 3, 0.8);
+  transition: 0.5s;
+}
+.menu ul li:hover > a {
+  transform-origin: left;
+  color: rgba(0, 0, 3, 1);
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.links ul li {
+  font-size: 1.6rem;
+}
+
+.links .hamburger-menu {
+  display: none;
+  color: #2c2c2c;
+}
+
+.profile, .cart {
+  color: #2c2c2c;
+}
+
+
+
+
+.body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body p {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.body h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* responsive css style  */
+@media (max-width: 1250px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 2rem 3fr 3fr 1fr 2rem;
+  }
+
+  .logo,
+  .menu ul,
+  .links ul {
+    height: 6rem;
+  }
+}
+
+/* responsive css style  */
+@media (max-width: 998px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 2rem 2fr 3fr 2rem 2rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo,
+  .links ul {
+    height: 6rem;
+  }
+
+  .mobile-menu {
+    grid-column: 2/4;
+    position: relative;
+    z-index: 99;
+  }
+
+  .mobile-menu {
+    background-color: white;
+    height: 20rem;
+    display: grid;
+    grid-column: 2/5;
+    align-items: center;
+    padding-left: 3rem;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 30px -30px,
+      rgba(0, 0, 0, 0.3) 0px 30px 30px -30px;
+  }
+
+  .mobile-menu ul {
+    height: 20rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .mobile-menu ul li:first-child {
+    transition-delay: 0.2s;
+  }
+
+  .links {
+    grid-row: 1/2;
+    grid-column: 3/5;
+    justify-items: end;
+    align-items: center;
+    transition: all 2s linear;
+  }
+
+  .links .links-desktop {
+    height: 0;
+    display: none;
+  }
+
+  .links {
+    height: 6rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+
+  .links .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 798px) {
+  .main-nav {
+    height: 6rem;
+    grid-template-columns: 1rem 2fr 1fr 1fr 1rem;
+  }
+
+  .logo,
+  .links ul {
+    height: 6rem;
+  }
+
+  .links {
+    height: 6rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+
+  .links .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .main-nav {
+    height: 4rem;
+    grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
+  }
+
+  .logo,
+  .links ul {
+    height: 4rem;
+  }
+
+  .logo h2 {
+    font-size: 2rem;
+  }
+
+  .links {
+    height: 4rem;
+    display: flex;
+    justify-self: end;
+    align-items: center;
+  }
+
+  .links .hamburger-menu {
+    display: block;
+    font-size: 2.5rem;
+  }
+
+  /* hero section  */
+
+  .body h1 {
+    font-size: 3.8rem;
+  }
+}

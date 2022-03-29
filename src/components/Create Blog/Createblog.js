@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Style.css'
+import './Createblog.css'
 import axios from 'axios';
 
 function Createblog() {
@@ -92,7 +92,7 @@ function Createblog() {
   var displayTags = Object.keys(state.tags).filter(tag => state.tags[tag]);
   return (
     
-    <div className="container-fluid bg pb-5">
+    <div className="container-fluid bg pb-5" >
       {/* <div className="container-fluid"> */}
         {/* <div className="panel-heading hd pt-4 pb-1"><h3 align="center"> 🖊 CREATE YOUR BLOG! 🖊</h3></div> */}
         <br />

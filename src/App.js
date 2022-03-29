@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter , Routes, Route, Link } from 'react-router-dom'; 
 // import { Switch } from 'react-native-switch';
 import './App.css';
-import { Navbar } from './components'
+import { Navbar } from './components';
+import Landingpage from './components/LandingPage/Landingpage';
+import Blogpage from './components/Blogpage/Blogpage';
 import Createblog from './components/Create Blog/Createblog';
 import Feedpage from './components/Feedpage';
 import Feed2 from './components/Feed2';
@@ -16,6 +18,9 @@ function App() {
       <Route path="/feed" element={<Feedpage/>}/>
       <Route path="/nav" element={<Navbar/>}/>
       <Route path="/cb" element={<Createblog/>}/>
+      <Route path="/landing" element={<Landingpage/>}/>
+      <Route path="/blogpage" element={<Blogpage/>}/>
+
 
     </Routes>
     </BrowserRouter>
