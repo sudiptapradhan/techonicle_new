@@ -1,0 +1,49 @@
+.bnr-descrptn{
+    display: flex;
+    width:95%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #646870;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  }
+
+  .wroteby{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 50%;
+  }
+  .side-heading{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+  .side-content p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #646870;
+    /* font-size: 1.1rem; */
+  
+  }
+
+  .headin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headin h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 800;
+  }
+
+  .headin h6{
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+  }
+
+
+a.one{
+    transform: translateY(-2px);
+    transform: rotate(180);
+}
+

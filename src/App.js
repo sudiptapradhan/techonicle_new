@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter , Routes, Route, Link } from 'react-router-dom'; 
 // import { Switch } from 'react-native-switch';
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { Navbar } from './components';
 import Landingpage from './components/LandingPage/Landingpage';
 import Blogpage from './components/Blogpage/Blogpage';

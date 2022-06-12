@@ -1,5 +1,6 @@
 import React from 'react'
 import './Blogpage.css'
+import Carousel from './Carousel.js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedin,
@@ -86,6 +87,8 @@ function Blogpage() {
         </div>
         </div>
       </div>
+
+      <Carousel/>
 
       {/* <img src="https://media.istockphoto.com/photos/digital-artist-working-at-home-picture-id1213781338?b=1&k=20&m=1213781338&s=170667a&w=0&h=bDVoUJdiVm7eA_Kw1yEcX1mS-PnB0Jh6bS00NNVnu-g="/>
          */}
