@@ -13,7 +13,7 @@ function Feed2() {
         <div className="container-fluid mt-2">
             <div className="row justify-content-center">
                 <div className="col-4 col-sm-4 col-md-3 feedp3">
-                    <img className="seeart" src="https://indiacityblog.com/wp-content/uploads/2020/03/the-closets-of-fashion-bloggers-blog-benetton-1-1200x909.jpg" />
+                    <img alt = "Img1" className="seeart" src="https://indiacityblog.com/wp-content/uploads/2020/03/the-closets-of-fashion-bloggers-blog-benetton-1-1200x909.jpg" />
                 </div>
                 <div className="col-7 col-sm-7 col-md-8 feedp3">
                     <div className="by">by <span>Elen Josh</span></div>
@@ -31,7 +31,7 @@ function Feed2() {
                 <div className="container-fluid mt-4">
                 <div className="row justify-content-center">
                     <div className="col-4 col-sm-4 col-md-3 feedp3">
-                        <img className="seeart" src="https://www.mumpacktravel.com/wp-content/uploads/2019/03/Where-Is-The-World2.jpg" />
+                        <img alt = "Img1" className="seeart" src="https://www.mumpacktravel.com/wp-content/uploads/2019/03/Where-Is-The-World2.jpg" />
                     </div>
                     <div className="col-7 col-sm-7 col-md-8 feedp3">
                         <div className="by">by <span>Elen Josh</span></div>
@@ -49,7 +49,7 @@ function Feed2() {
                     <div className="container-fluid mt-4">
                     <div className="row justify-content-center">
                         <div className="col-4 col-sm-4 col-md-3 feedp3">
-                            <img className="seeart" src="https://blog.hubspot.com/hubfs/how-long-blog-posts.jpg" />
+                            <img alt = "Img1" className="seeart" src="https://blog.hubspot.com/hubfs/how-long-blog-posts.jpg" />
                         </div>
                         <div className="col-7 col-sm-7 col-md-8 feedp3">
                             <div className="by">by <span>Elen Josh</span></div>

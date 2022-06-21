@@ -84,6 +84,7 @@ a.social:hover {
   
 a.facebook, .behance, .twitter, .linkedin, .instagram {
     color: #2a2a2a;
+    background-color: #fff;
   }
 
   /*----Responsiveness------*/

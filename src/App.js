@@ -1,29 +1,26 @@
 import React from 'react';
-import { BrowserRouter , Routes, Route, Link } from 'react-router-dom'; 
+import { BrowserRouter , Routes, Route} from 'react-router-dom'; 
 // import { Switch } from 'react-native-switch';
 import './App.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Navbar } from './components';
 import Landingpage from './components/LandingPage/Landingpage';
 import Blogpage from './components/Blogpage/Blogpage';
 import Createblog from './components/Create Blog/Createblog';
 import Feedpage from './components/Feedpage';
-import Feed2 from './components/Feed2';
+import Navbar from './components/Navbar/Navbar';
 function App() {
   return (
     <>
     
     
     <BrowserRouter>
+    <Navbar />
     <Routes>
-      <Route path="/feed" element={<Feedpage/>}/>
-      <Route path="/nav" element={<Navbar/>}/>
-      <Route path="/cb" element={<Createblog/>}/>
-      <Route path="/landing" element={<Landingpage/>}/>
-      <Route path="/blogpage" element={<Blogpage/>}/>
-
-
+      <Route path="/feed" exact element={<Feedpage/>}/>
+      <Route path="/create" exact element={<Createblog/>}/>
+      <Route path="/" exact element={<Landingpage/>}/>
+      <Route path="/blog" exact element={<Blogpage/>}/>
     </Routes>
     </BrowserRouter>
     {/* <Router>
@@ -43,15 +40,3 @@ function App() {
 }
 
 export default App;
-
-
-{/* <Router>
-    <div>
-      
-    <Link to="/feed">Feedpage</Link><br/>
-      <Link to="/nav">Navbar</Link><br/>
-    </div>
-        <Route exact path='/feed' component={Feedpage}/> 
-        <Route exact path='/nav' component={Navbar}/> 
-
-      </Router> */}

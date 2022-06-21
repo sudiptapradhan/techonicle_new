@@ -38,12 +38,12 @@ function Landingpage() {
       <section className='left'>
        <div className='head'>
         <div className='b-img'>
-         <img className="img-responsive img-fluid max-width:200%" src='https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200619221325/7-Best-Tips-For-Students-To-Stay-Motivated-When-Studying.png'/>
+         <img alt = "Img1" className="img-responsive img-fluid max-width:200%" src='https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200619221325/7-Best-Tips-For-Students-To-Stay-Motivated-When-Studying.png'/>
         </div>
         <div class="content">
           <h1>Writing-A beautiful Habit</h1>
           <div className='author'>
-            <img src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
+            <img alt = "Img2" src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
             <p>Veronica Smith</p>
           </div>
           <p>lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, distinctio sit amet consectetur adipisicing elit. Quidem, distinctio</p>
@@ -57,12 +57,12 @@ function Landingpage() {
             <div class ="each-card col-sm-20">
             <div className=''>
               <div className='each-img'>
-                <img className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
+                <img alt = "Img3" className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
               </div>
               <div class="title">
                 <h1>Learning takes only one aspect</h1>
                 <div className='b-author'>
-                  <img src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
+                  <img alt = "Img4" src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
                   <p>Veronica Smith</p>
                 </div>
                 <p>lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, distinctio sit amet consectetur adipisicing elit. Quidem, distinctio</p>
@@ -73,12 +73,12 @@ function Landingpage() {
             <div class ="each-card col-sm-20">
             <div className=''>
               <div className='each-img'>
-                <img className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
+                <img alt = "Img5" className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
               </div>
               <div class="title">
                 <h1>Learning takes only one aspect</h1>
                 <div className='b-author'>
-                  <img src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
+                  <img alt = "Img6" src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
                   <p>Veronica Smith</p>
                 </div>
                 <p>lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, distinctio sit amet consectetur adipisicing elit. Quidem, distinctio</p>
@@ -93,12 +93,12 @@ function Landingpage() {
             <div class ="each-card col-sm-20">
             <div className=''>
               <div className='each-img'>
-                <img className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
+                <img alt = "Img7" className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
               </div>
               <div class="title">
                 <h1>Learning takes only one aspect</h1>
                 <div className='b-author'>
-                  <img src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
+                  <img alt = "Img8" src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
                   <p>Veronica Smith</p>
                 </div>
                 <p>lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, distinctio sit amet consectetur adipisicing elit. Quidem, distinctio</p>
@@ -110,12 +110,12 @@ function Landingpage() {
             <div class ="each-card col-sm-20">
             <div className=''>
               <div className='each-img'>
-                <img className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
+                <img alt = "Img9" className="img-responsive img-fluid " src='https://data.whicdn.com/images/335291915/original.jpg?t=1568585668'/>
               </div>
               <div class="title">
                 <h1>Learning takes only one aspect</h1>
                 <div className='b-author'>
-                  <img src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
+                  <img alt = "Img10" src='https://cdn.jpegmini.com/user/images/slider_puffin_jpegmini_mobile.jpg'/>
                   <p>Veronica Smith</p>
                 </div>
                 <p>lorem ipsum Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, distinctio sit amet consectetur adipisicing elit. Quidem, distinctio</p>
@@ -139,51 +139,51 @@ function Landingpage() {
           <h2>Similar Topics</h2>
           <div className='tags'>
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Web Development</a>			
+			        <a href="/Landing" className="btn tag-link">Web Development</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Android</a>			
+			        <a href="/Landing" className="btn tag-link">Android</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">HTML</a>			
+			        <a href="/Landing" className="btn tag-link">HTML</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">CSS</a>			
+			        <a href="/Landing" className="btn tag-link">CSS</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Bootstrap</a>			
+			        <a href="/Landing" className="btn tag-link">Bootstrap</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Machine Learning</a>			
+			        <a href="/Landing" className="btn tag-link">Machine Learning</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Python</a>			
+			        <a href="/Landing" className="btn tag-link">Python</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">JAVA</a>			
+			        <a href="/Landing" className="btn tag-link">JAVA</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Hardware</a>			
+			        <a href="/Landing" className="btn tag-link">Hardware</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Internet of Things</a>			
+			        <a href="/Landing" className="btn tag-link">Internet of Things</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">Arduino</a>			
+			        <a href="/Landing" className="btn tag-link">Arduino</a>			
 		        </div>
 
             <div className="topic">				
-			        <a href="#" className="btn tag-link">How to begin</a>			
+			        <a href="/Landing" className="btn tag-link">How to begin</a>			
 		        </div>
 
           </div>
@@ -213,10 +213,10 @@ function Landingpage() {
                     <div className="">
                         <h6 className="footer-heading text-uppercase text-black">Information</h6>
                         <ul className="list-unstyled footer-link mt-4">
-                            <li><a href="">Pages</a></li>
-                            <li><a href="">Our Team</a></li>
-                            <li><a href="">Feuchers</a></li>
-                            <li><a href="">Pricing</a></li>
+                            <li><a href="/Landing">Pages</a></li>
+                            <li><a href="/Landing">Our Team</a></li>
+                            <li><a href="/Landing">Feuchers</a></li>
+                            <li><a href="/Landing">Pricing</a></li>
                         </ul>
                     </div>
                 </div>
@@ -225,10 +225,10 @@ function Landingpage() {
                     <div className="">
                         <h6 className="footer-heading text-uppercase text-black">Ressources</h6>
                         <ul className="list-unstyled footer-link mt-4">
-                            <li><a href="">Monitoring Grader </a></li>
-                            <li><a href="">Video Tutorial</a></li>
-                            <li><a href="">Term &amp; Service</a></li>
-                            <li><a href="">Zeeko API</a></li>
+                            <li><a href="/Landing">Monitoring Grader </a></li>
+                            <li><a href="/Landing">Video Tutorial</a></li>
+                            <li><a href="/Landing">Term &amp; Service</a></li>
+                            <li><a href="/Landing">Zeeko API</a></li>
                         </ul>
                     </div>
                 </div>
@@ -237,10 +237,10 @@ function Landingpage() {
                     <div className="">
                         <h6 className="footer-heading text-uppercase text-black">Help</h6>
                         <ul className="list-unstyled footer-link mt-4">
-                            <li><a href="">Sign Up </a></li>
-                            <li><a href="">Login</a></li>
-                            <li><a href="">Terms of Services</a></li>
-                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="/Landing">Sign Up </a></li>
+                            <li><a href="/Landing">Login</a></li>
+                            <li><a href="/Landing">Terms of Services</a></li>
+                            <li><a href="/Landing">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -252,10 +252,10 @@ function Landingpage() {
                         <p className="contact-info">+01 123-456-7890</p>
                         <div className="mt-5">
                             <ul className="list-inline">
-                                <li className="list-inline-item"><a href="#"><i class="facebook footer-social-icon fa-facebook-f"></i></a></li>
-                                <li className="list-inline-item"><a href="#"><i class="fab twitter footer-social-icon fa-twitter"></i></a></li>
-                                <li className="list-inline-item"><a href="#"><i class="fab google footer-social-icon fa-google"></i></a></li>
-                                <li className="list-inline-item"><a href="#"><i class="fab apple footer-social-icon fa-apple"></i></a></li>
+                                <li className="list-inline-item"><a href="/Landing"><i class="facebook footer-social-icon fa-facebook-f"></i></a></li>
+                                <li className="list-inline-item"><a href="/Landing"><i class="fab twitter footer-social-icon fa-twitter"></i></a></li>
+                                <li className="list-inline-item"><a href="/Landing"><i class="fab google footer-social-icon fa-google"></i></a></li>
+                                <li className="list-inline-item"><a href="/Landing"><i class="fab apple footer-social-icon fa-apple"></i></a></li>
                             </ul>
                         </div>
                     </div>

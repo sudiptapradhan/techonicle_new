@@ -17,44 +17,34 @@ const Navbar = () => {
         <div className={showMediaIcons ? 'menu mobile-menu' : 'menu'}>
           <ul>
             <li>
-              <a href='#'>Home</a>
+              <a href='/'>Home</a>
             </li>
             <li>
-              <a href='#'>Blog</a>
+              <a href='/feed'>Feed Page</a>
             </li>
             <li>
-              <a href='#'>Podcasts</a>
+              <a href='/blog'>Blog Page</a>
             </li>
             <li>
-              <a href='#'>Books</a>
-            </li>
-            <li>
-              <a href='#'>About</a>
+              <a href='/create'>Create Blog</a>
             </li>
           </ul>
         </div>
 
         <div className='links'>
           <ul className='links-desktop'>
-          <li><a href='#'><FiShoppingBag className='cart'/></a></li>
-          <li><a href='#'><CgProfile className='profile'/></a></li>
+          <li><a href='/nav'><FiShoppingBag className='cart'/></a></li>
+          <li><a href='/nav'><CgProfile className='profile'/></a></li>
           </ul>
 
           {/* Hamburger */}
       <div className='hamburger-menu'>
-        <a href='#' onClick={() => setShowMediaIcons(!showMediaIcons)}>
+        <p onClick={() => setShowMediaIcons(!showMediaIcons)}>
           <GiHamburgerMenu className='hamburgermenu'/>
-        </a>
+        </p>
       </div>
         </div>
       </nav>
-
-
-      {/* Body */}
-      <section className='body'>
-      <p>Welcome to</p>
-      <h1>Techonicle</h1>
-      </section>
     </>
   )
 }
