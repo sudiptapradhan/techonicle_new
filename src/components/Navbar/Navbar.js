@@ -11,7 +11,7 @@ const Navbar = () => {
       <nav className='main-nav'>
         
         <div className='logo'>
-          <h2>Techonicle </h2>
+          <a href='/'><h2>Techonicle </h2></a>
         </div>
 
         <div className={showMediaIcons ? 'menu mobile-menu' : 'menu'}>
