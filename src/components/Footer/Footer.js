@@ -84,7 +84,7 @@ function footer() {
         </div>
 
         <div class="text-center mt-5">
-            <p class="footer-alt text-center mb-0 f-14 cc">2022 © Spectrum Web Team '19-'23</p>
+            <p class="footer-alt text-center mb-0 f-14 cc">2022 © Spectrum</p>
         </div>
     </footer>
     </div>

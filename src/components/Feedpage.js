@@ -1,6 +1,6 @@
 import React from 'react'
 import Feed2 from './Feed2'
-import Carousel from '../components/Blogpage/Carousel'
+import Carousel from '../components/Car/Car1'
 
 function Feedpage() {
 
