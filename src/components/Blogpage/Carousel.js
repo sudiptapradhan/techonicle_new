@@ -17,16 +17,16 @@ export default class MultipleItems extends Component {
       initialSlide: 0
     };
     return (
-      <div>
+      <div className="parent">
         <div className='headin ms-4 me-4 mt-2'>
-            <h1>Read More</h1>
+            <h2 className="bnrr-heading-2">Read More</h2>
             <h6>See All</h6>
         </div>
         <div className='ps-4 pe-4'>
         <div className="line mb-3"></div>
         </div>
         <Slider {...settings}>
-    
+        
         <div className="one" >
                    
                    <a href="/blog"> <img alt = "Img1" className="img-responsive img-fluid"  src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/></a>
@@ -44,7 +44,7 @@ export default class MultipleItems extends Component {
                     </div>
 
                     
-                    <div>
+        <div>
                    
                     <a href="/blog"><img alt = "Img2" className="img-responsive img-fluid" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/></a>
                     <div className="bnr-descrptn mt-3">
@@ -59,11 +59,11 @@ export default class MultipleItems extends Component {
                     
                     </div>
                  
-                    </div>
+        </div>
 
 
 
-                    <div>
+        <div>
                    
                     <a href="/blog"><img alt = "Img3" className="img-responsive img-fluid" src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/></a>
                     <div className="bnr-descrptn mt-3">
@@ -78,7 +78,7 @@ export default class MultipleItems extends Component {
                     
                     </div>
                
-                    </div>
+        </div>
 
 
                     <div>

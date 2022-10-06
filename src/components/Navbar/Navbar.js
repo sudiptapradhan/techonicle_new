@@ -3,6 +3,7 @@ import './Navbar.css'
 import { FiShoppingBag } from 'react-icons/fi';
 import { CgProfile } from 'react-icons/cg';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import Logo from './img.png';
 
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -11,7 +12,7 @@ const Navbar = () => {
       <nav className='main-nav'>
         
         <div className='logo'>
-          <a href='/'><h2>Techonicle </h2></a>
+        <img className="img-responsive img-fluid" src={Logo} alt="logo"/>
         </div>
 
         <div className={showMediaIcons ? 'menu mobile-menu' : 'menu'}>
@@ -33,7 +34,7 @@ const Navbar = () => {
 
         <div className='links'>
           <ul className='links-desktop'>
-          <li><a href='/nav'><FiShoppingBag className='cart'/></a></li>
+          
           <li><a href='/nav'><CgProfile className='profile'/></a></li>
           </ul>
 

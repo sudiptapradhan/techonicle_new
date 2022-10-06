@@ -1,5 +1,3 @@
-
-
 .bp-img img{
   display: flex;
     flex-direction: column;
@@ -120,4 +118,7 @@ a.facebook, .behance, .twitter, .linkedin, .instagram {
       padding-left: 24%;
     }
   }
+
+
+  
   

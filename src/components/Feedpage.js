@@ -1,5 +1,6 @@
 import React from 'react'
 import Feed2 from './Feed2'
+import Carousel from '../components/Blogpage/Carousel'
 
 function Feedpage() {
 
@@ -19,6 +20,7 @@ function Feedpage() {
           </div>
           <div className="bnr-content">
             <h2 className="bnr-heading">What Designers, Photographers and other Insiders Missed about Paris Fashion Week</h2>
+            <br/>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa natus aliquid doloremque minima ea a, sequi reprehenderit eum exercitationem quo ullam. Labore vitae hic at quisquam dolores in nemo alias? Maiores quibusdam est tenetur rem facilis inventore architecto, possimus, tempore accusantium ipsum reprehenderit debitis odit odio praesentium! Doloremque laudantium iste suscipit magni cupiditate dolores atque, praesentium aliquid recusandae ipsum fugit eveniet, sunt provident totam asperiores nobis mollitia libero, illum vero. Unde natus quae, alias aperiam error perspiciatis dolor molestiae provident sapiente in voluptas deserunt.<br/><br/>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa natus aliquid doloremque minima ea a, sequi reprehenderit eum exercitationem quo ullam. Labore vitae hic at quisquam dolores in nemo alias? Maiores quibusdam est tenetur rem facilis inventore architecto, possimus, tempore accusantium ipsum reprehenderit debitis odit odio praesentium! Doloremque laudantium iste suscipit magni cupiditate dolores atque, praesentium aliquid recusandae ipsum fugit eveniet, sunt provident totam asperiores.
             </p>
@@ -31,10 +33,11 @@ function Feedpage() {
           <div className="date ms-1 me-1">69 Feb</div>
           <div className="time ms-1 me-1">5 min read</div>
           
-          <div className="wroteby">Tapan Sethi </div>
+          <div className="wroteby">John Doe</div>
         </div>
         <div className="side-content">
-          <h2 className="side-heading">What designers, Photographers and Insiders</h2>
+          <h2 className="side-heading" >What designers, Photographers and Insiders</h2>
+          <br/>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dolores fugiat illum ducimus perferendis. Veniam doloribus enim provident nobis excepturi sunt, velit veritatis pariatur. Maiores nam dolorum dolor vitae voluptates?</p>
           
         </div>
@@ -44,10 +47,11 @@ function Feedpage() {
           <div className="date ms-1 me-1">69 Feb</div>
           <div className="time ms-1 me-1">5 min read</div>
           
-          <div className="wroteby">Tapan Sethi </div>
+          <div className="wroteby">John Doe</div>
         </div>
         <div className="side-content">
           <h2 className="side-heading">What designers, Photographers and Insiders</h2>
+          <br/>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dolores fugiat illum ducimus perferendis. Veniam doloribus enim provident nobis excepturi sunt, velit veritatis pariatur. Maiores nam dolorum dolor vitae voluptates?</p>
           
         </div>
@@ -59,6 +63,7 @@ function Feedpage() {
       {/* <img src="https://media.istockphoto.com/photos/digital-artist-working-at-home-picture-id1213781338?b=1&k=20&m=1213781338&s=170667a&w=0&h=bDVoUJdiVm7eA_Kw1yEcX1mS-PnB0Jh6bS00NNVnu-g="/>
          */}
     </div>
+    <Carousel/>
     <Feed2/>
     </>
   )

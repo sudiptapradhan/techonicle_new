@@ -7,6 +7,8 @@ import Blogpage from './components/Blogpage/Blogpage';
 import Createblog from './components/Create Blog/Createblog';
 import Feedpage from './components/Feedpage';
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
           <Route path='/feed' exact element = {<Feedpage/>}/>
           <Route path='/create' exact element = {<Createblog/>}/>
         </Routes>
+        <Footer />
       </BrowserRouter>    
     </>     
   );

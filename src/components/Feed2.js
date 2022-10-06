@@ -3,8 +3,9 @@ import React from 'react'
 function Feed2() {
     return (
         <>
+        <br/>
         <div className='headin ms-4 me-4 mt-2'>
-            <h1>THE LATEST ARTICLES</h1>
+            <h2 className="bnr-heading-2">The Latest Articles</h2>
             <h6>See All</h6>
         </div>
         <div className='ps-4 pe-4'>
@@ -71,7 +72,22 @@ function Feed2() {
                         <button>Read More</button>
                     </div>
                 </div>
-                </>
+
+
+
+                <div className="newsletter contain">
+                    <div className="contain">
+                        <div className="intro">
+                            <h2 className="text-center">Subscribe to our Newsletter</h2>
+                            <p className="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                        <form className="sub form-inline" method="post">
+                            <div className="sub-option group"><input className="form-blogpage" type="email" name="email" placeholder="Your Email"/></div>
+                            <div className="sub-option group"><button className="btnnnn btnnnn-primary-one" type="button">Subscribe </button></div>
+                        </form>
+                    </div>
+                 </div>
+                </>               
     )
 }
 

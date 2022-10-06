@@ -116,7 +116,7 @@ function Createblog() {
           </div>
 
           <div className="col-lg-9 col-md-7">
-            <div className="right">
+            <div className="righttttt">
 
               <div className="panel panel-default">
                 <br />
@@ -135,13 +135,13 @@ function Createblog() {
                     </div>
                     <div className="form-group">
                       <div className="col-md-12 my-3">
-                        <textarea name="bContent" className="form-control" cols="30" rows="14" placeholder="Content of your blog..." onChange={(e) => setBlog({ ...blog, content: e.target.value })} value={blog.content}></textarea>
+                        <textarea name="bContent" className="form-control" cols="25" rows="14" placeholder="Content of your blog..." onChange={(e) => setBlog({ ...blog, content: e.target.value })} value={blog.content}></textarea>
                       </div>
                     </div>
                     <div className="form-group uploadImage">
                       <div className="row align-items-center">
                         <div className="col-3 mt-1 mt-md-0 text-center">
-                          <h5>Select Blog Image:</h5>
+                          <h6>Select Blog Image:</h6>
                         </div>
                         <div className="col-9 my-3 text-center">
                           <input type="file" name="bImage" accept=".jpg, .png .jpeg .webp" onChange={(e) => setBlog({ ...blog, image: e.target.files[0] })} />

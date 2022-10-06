@@ -55,7 +55,7 @@
 .bnr-heading{
   font-family: 'Playfair Display', serif;
   /* font-family: 'Shippori Antique', sans-serif; */
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2.5rem;
   letter-spacing: 1px;
   
@@ -88,6 +88,7 @@ width: 94%;
 .side-heading{
   font-family: 'Playfair Display', serif;
   font-weight: 500;
+  
 }
 .side-content p{
   font-family: 'Roboto Condensed', sans-serif;
@@ -104,10 +105,24 @@ width: 94%;
 
 
 /* ------feed last 2 parts------ */
+
+span{
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+.bnr-heading-2{
+  font-family: 'Playfair Display', serif;
+  margin-left: 3%;
+  /* font-family: 'Shippori Antique', sans-serif; */
+  font-weight: 500;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  
+}
 .feedp3{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  /* align-items: flex-start; */
   justify-content: center;
 }
 @media all and (min-width: 1020px) {
@@ -188,9 +203,10 @@ width: 94%;
 .feedlast{
   height: 55vh;
   width: 100%;
-  background-image: url(https://wallpapercave.com/wp/wp2511097.jpg);
-  background-size: 100% 100%;
+  background-image: url(https://images.unsplash.com/photo-1621947081720-86970823b77a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80);
+  background-size: cover;
   background-repeat: no-repeat;
+
 }
 .feedlastdiv{
   width: 60%;
@@ -199,6 +215,7 @@ width: 94%;
   flex-direction: column;
   align-items:flex-start;
   justify-content: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 @media all and (max-width: 900px) {
   .feedlastdiv{
@@ -248,9 +265,13 @@ width: 94%;
   }
 }
 .line{
-  width: 100%;
+  width: 98%;
   height: 3px;
   background-color: rgb(206, 198, 198);
   border-radius: 50px;
+  margin-left: 3%;
+
 }
 /* ------feed last 2 parts enddd------ */
+
+

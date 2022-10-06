@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Shippori+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+
+/* form starting stylings ------------------------------- */
+.group  { 
+  /* padding-top: 50%; */
+  position:relative; 
+}
+input {
+  font-size:18px;
+  /* padding:10px 10px 10px 5px; */
+  margin-top: 5%;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+  font-size: 0.8rem;
+}
+input:focus {
+   outline:none; 
+  }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999; 
+  font-size:15px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  /* left:5px; */
+  /* top:2px; */
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+  /*------------------------Subscription Part--------------------------*/
+ .intro {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 15px;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .intro p{
+    color: #7d8285;
+    line-height: 1.5;
+    margin-top: 25px ;
+    font-family: 'Roboto Condensed', sans-serif;
+
+    text-align: justify;
+  }
+  
+  .intro h2{
+    color: #313437;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
+
+  }
+
+
+  .sub{
+    display: flex;
+    text-align: justify;
+    margin:0 440px ;
+
+  }
+
+  .sub-option{
+    padding: 0 20px ;
+  }
+  
+
+  .group .form-blogpage {
+    
+    background: black;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    outline: none;
+    color: #7d8285;
+    text-indent: 9px;
+    height: 45px;
+    max-width: 500px;
+  }
+  
+  .group .btnnnn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1;
+    width: 120%;
+  }
+ 
+  .group .btnnnn:hover {
+    opacity: 1;
+  }
+  
+   .group .btnnnn:active {
+    transform: translateY(1px);
+  }
+  
+   .group .btnnnn-primary-one {
+    background-color: black !important;
+    color: #7d8285;
+    outline: none !important;
+  }
+  
+  
+  /* -------------------------------Footer-------------------------*/
+ 
+  .bg-footer {
+    text-align: left;
+    margin-left: 8%;
+    padding: 50px 30px; 
+}
+.footer-heading {
+  padding-top: 11%;
+  padding-bottom: 9%;
+    letter-spacing: 2px;
+}
+
+.footer-link a {
+    color: black;
+    line-height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+
+.contact-info {
+    color: black;
+    font-size: 14px;
+}
+
+
+
+.footer-alt {
+    color: #acacac;
+}
+
+.footer-heading {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footer-heading:after {
+    content: '';
+    width: 25px;
+    border-bottom: 1px solid #FFF;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+ 
+}
+
+
+  /* -------------------------------responsive-------------------------*/
+
+  @media (max-width: 971px) 
+  {
+    .lp-bnr{
+      padding-top: 6%;
+      padding-left: 4.7%;
+    }
+  }
+
+  @media screen and (max-width:800px){
+    .wrapper{
+      display: block;
+      padding: 15px;
+    }
+    
+    .left{
+      width: 100%;
+      box-sizing: border-box;
+      padding: 0;
+    }
+
+    .b-img{ 
+      width: 200%;
+      height: 100%;
+    }
+
+    .head{
+       padding: 0;
+       margin-bottom: 10px;
+       line-height: 12px;
+       
+    }
+
+    .content{
+      width: 85%;
+      height: 40%;
+      margin-top: -60px;
+      padding: 10px;
+    
+    }
+
+    .content h1{
+      font-size: 14px;
+      font-weight: bold;
+     
+      margin: 0;
+    }
+
+    .content p{
+      font-size: 10px;
+    }
+
+    .author{
+     line-height: 2px;
+    }
+
+    .right{
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+
+  @media screen and (max-width:800px){
+
+    .lmao{
+      display: block;
+      padding: 10px;
+      align-items: center;
+      
+    }
+
+    .each-card{
+      align-items: center;
+      margin-left: 60px;
+    }
+
+    .each-image{
+      width: 1500px;
+      height:100%;
+      align-items: center;
+      
+    }
+
+    .each-img img{
+      padding: 0;
+    }
+
+    .each-card{
+      padding: 0;
+      margin-bottom: 10px;
+      line-height: 12px;
+      
+   }
+
+   .title{
+     width: 85%;
+     height: 40%;
+     margin-top: -60px;
+     padding: 10px;
+   
+   }
+
+   .title h1{
+     font-size: 14px;
+     font-weight: bold;
+    
+     margin: 0;
+   }
+
+   .title p{
+     font-size: 10px;
+   }
+
+   .b-author{
+    line-height: 2px;
+   }
+
+  }
+
+  /*Subscription part*/
+
+  @media (max-width:800px){
+
+    .contain{
+      padding: 15px;
+    }
+
+    .intro{
+      max-width: 80%;
+      height: 100%;
+      text-align: justify;
+    }
+
+    .intro h2{
+      font-size: 20px;
+    }
+
+    .intro p{
+      font-size: 15px ;
+    }
+    
+    .sub{
+      display: block;
+    }
+
+  }
+
+/* sudu  */
+.ull {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ft{
+  margin-bottom: 2%;
+}
+
+.cc{
+  font-family: 'Roboto Condensed', sans-serif;
+}

@@ -1,9 +1,10 @@
 .bg{
-    background-image: url('./cbbg3.jpg');
-    background-repeat: no-repeat;
+    /* background-image: url('./img.jpg');
+    background-repeat: no-repeat; */
+    color: white;
     height: 100%;
-    background-position: center;
-    background-size: cover;
+    /* background-position: center; */
+    /* background-size: cover; */
 }
 
 .uploadImage{
@@ -20,7 +21,7 @@
     font-family: 'Playfair Display', serif;
 }
 
-h6, .tag{
+.tag{
     position: relative !important;
     padding-left: 15px !important;
     color: #404040;
@@ -28,6 +29,15 @@ h6, .tag{
     font-size: large;
     padding-top: 15px;
     
+}
+
+h6{
+    /* position: relative !important; */
+    /* padding-left: 15px !important; */
+    color: #404040;
+    font-weight: 600;
+    font-size: medium;
+    /* padding-top: 15px;  */
 }
 
 .displayTags{

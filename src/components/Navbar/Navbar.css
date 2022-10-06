@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Shippori+Antique&display=swap');
 
-* {
+.main-nav {
   margin: 0;
-  padding: 0;
+  padding-bottom: 8%;
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+  font-family: "Playfair Display", sans-serif;
 }
 
 
@@ -12,8 +12,13 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  text-decoration: none;
+}
+
 li {
   list-style: none;
+  text-decoration: none;
 }
 
 /* 
@@ -26,11 +31,9 @@ li {
 .main-nav {
   font-size: 62.5%;
   width: 100%;
-  height: 6rem;
+  height: 5rem;
   display: grid;
   grid-template-columns: 8rem 2fr 2fr 1fr 8rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 20px -20px,
-    rgba(0, 0, 0, 0.3) 0px 20px 20px -20px;
 }
 
 .logo {
@@ -39,18 +42,19 @@ li {
   grid-column: 2/3;
   justify-content: start;
   align-items: center;
-  height: 7.2rem;
+  height: 34%;
+  width: 40%;
 }
 
 .menu {
-  grid-column: 3/4;
+  grid-column: 3/4;;
 }
-
 .menu ul {
   height: 7.2rem;
   display: flex;
   grid-template-columns: 2.6fr repeat(2, 2fr);
   justify-content: space-around;
+
   align-items: center;
 }
 
@@ -76,14 +80,6 @@ li {
 
 /* ----------- Grid part ends ----------------- */
 
-.logo h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
-  font-weight: 1600;
-  text-transform: uppercase;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #2c2c2c;
-}
 
 .menu ul li {
   font-size: 1.4rem;

@@ -28,7 +28,7 @@ function Blogpage() {
           <div className="date ms-1 me-1">69 Feb</div>
           <div className="time ms-1 me-1">5 min read</div>
           
-          <div className="wroteby">Tapan Sethi </div>
+          <div className="wroteby">John Doe</div>
         </div>
         <div className="side_content">
           <h2 className="bp-heading">The Definitive Helmut Newton Photobook Is Reissued-for His 100th Birthday</h2>
@@ -51,7 +51,7 @@ function Blogpage() {
         <div className="row">
         <div className="col-lg-4 blog-bp">
         <h2 className="side_heading">Share this article</h2>
-        <div class="social-container">
+        <div className="social-container">
         <a href="https://www.linkedin.com/"
         className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -82,17 +82,16 @@ function Blogpage() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dolores fugiat illum ducimus perferendis. Veniam doloribus enim provident nobis excepturi sunt, velit veritatis pariatur. Maiores nam dolorum dolor vitae voluptates?</p>
           
         </div>
-         {/* <h2>Heyy how are you</h2> */}
+        
          
         </div>
         </div>
       </div>
 
       <Carousel/>
-
-      {/* <img src="https://media.istockphoto.com/photos/digital-artist-working-at-home-picture-id1213781338?b=1&k=20&m=1213781338&s=170667a&w=0&h=bDVoUJdiVm7eA_Kw1yEcX1mS-PnB0Jh6bS00NNVnu-g="/>
-         */}
     </div>
+
+    
   )
 }
 
